@@ -1,8 +1,8 @@
-openscenegraph (3.0.1-SprezzOS1) unstable; urgency=low
+openscenegraph (3.3.1) unstable; urgency=low
 
-  * SprezzOS build
+  * Maemo 5 build
 
- -- Nick Black <nick.black@sprezzatech.com>  Tue, 19 Mar 2013 19:13:07 -0400
+ -- Bernhard Beschow <bbeschow@cs.tu-berlin.de>  Mon, 21 Apr 2014 19:13:07 +0200
 
 openscenegraph (3.0.1-4) unstable; urgency=low
 

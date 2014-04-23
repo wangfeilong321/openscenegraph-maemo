@@ -1,7 +1,7 @@
 Source: openscenegraph
 Section: devel
 Priority: optional
-Maintainer: Nick Black <nick.black@sprezzatech.com>
+Maintainer: Bernhard Beschow <bbeschow@cs.tu-berlin.de>
 XSBC-Original-Maintainer: Loic Dachary (OuoU) <loic@debian.org>
 Build-Depends: debhelper,
                dpkg-dev,

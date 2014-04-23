@@ -14,7 +14,7 @@ DEB_MAKE_INSTALL_TARGET = DESTDIR=$(CURDIR)/debian/tmp install
 
 DEB_DH_INSTALL_SOURCEDIR = debian/tmp
 
-DEB_DH_SHLIBDEPS_ARGS_ALL = -l$(CURDIR)/debian/tmp/opt/marble/lib
+DEB_DH_SHLIBDEPS_ARGS_ALL = -l$(CURDIR)/debian/tmp/usr/lib
 
 clean::
 	-rm -rf CMakeFiles
