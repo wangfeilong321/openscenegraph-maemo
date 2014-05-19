@@ -17,8 +17,8 @@ Build-Depends: debhelper,
                libjasper-dev,
                libx11-dev,
                libxmu-dev,
-               freeglut3-dev,
-               libgl1-mesa-dev | libgl-dev,
+               opengles-sgx-img-common-dev,
+               libgles2-sgx-img-dev,
                libqt4-dev,
                libpoppler-glib-dev
 Standards-Version: 3.9.4
@@ -60,8 +60,8 @@ Section: libdevel
 Architecture: any
 Depends: ${misc:Depends},
          libopenthreads-dev,
-         libgl1-mesa-dev | libgl-dev,
-         libglu-dev,
+         opengles-sgx-img-common-dev,
+         libgles2-sgx-img-dev,
          libopenscenegraph80 (= ${binary:Version})
 Suggests: openscenegraph-doc,
           openscenegraph-examples
